@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cornerb"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="#7ad7d7d7"
+        android:gravity="center"
+        android:text="@string/business_name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/mainTextBoxView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainTitleView"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/textbox"
+        android:contentDescription="@string/main_image_text_box" />
+
+    <ImageView
+        android:id="@+id/phoneImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/mainTextBoxView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/mainTitleView"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/phone"
+        android:contentDescription="phone blue icon image"
+        android:layout_alignLeft="@+id/mainTextBoxView" />
+
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainTitleView"
+        android:layout_marginTop="110dp"
+        android:layout_toRightOf="@+id/phoneImageView"
+        android:layout_marginLeft="10dp"
+        android:text="@string/business_phone"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/phoneImageView" />
+
+    <ImageView
+        android:id="@+id/siteImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/mainTextBoxView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/phoneImageView"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/site"
+        android:layout_alignLeft="@+id/mainTextBoxView" />
+
+    <TextView
+        android:id="@+id/siteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumberTextView"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/siteImageView"
+        android:layout_marginLeft="10dp"
+        android:text="@string/business_site"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/homeAddressImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/mainTextBoxView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/siteImageView"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/homeaddress"
+        android:layout_alignLeft="@+id/mainTextBoxView" />
+
+    <TextView
+        android:id="@+id/homeAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/siteTextView"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/homeAddressImageView"
+        android:layout_marginLeft="10dp"
+        android:text="@string/business_address"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/businessHourImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/mainTextBoxView"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/homeAddressImageView"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/businesshour"
+        android:layout_alignLeft="@+id/mainTextBoxView" />
+
+    <TextView
+        android:id="@+id/businessHourTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeAddressTextView"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/businessHourImageView"
+        android:layout_marginLeft="10dp"
+        android:text="@string/business_hour"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/mainTextView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/business_about"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
+</ScrollView>

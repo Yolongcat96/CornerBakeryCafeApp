@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CornerBakeryCafe</string>
+
+    <string name="business_name">Corner Bakery Cafe</string>
+    <string name="business_phone">(650) 843-0676</string>
+    <string name="business_site">https://www.cornerbakerycafe.com/</string>
+    <string name="business_address">3375 El Camino Real\nPalo Alto, CA 94306</string>
+    <string name="business_hour">From Monday to Sunday\n7:00AM - 9:00PM</string>
+    <string name="business_about">Creating artisan breads and freshy baked sweets.</string>
+    <string name="main_image_text_box">main image text box</string>
+</resources>
